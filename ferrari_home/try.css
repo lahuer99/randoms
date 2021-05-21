@@ -1,0 +1,147 @@
+body{
+	background-image: url("FerrariBackground.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+.changer{
+	background-color: #16181a;
+	border-width: thin;
+	border-radius: 8px;
+	font-size: 16px;
+	font-family: "SF-Pro-Text-Semibold";
+	transition: 0.4s;
+}
+
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+
+nav.transparent{
+	    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-Heavy";
+    src: url('SF-Pro-Text-Heavy.otf') format("opentype");
+}
+
+a.navbar-brand{
+	font-size: 35px;
+	font-family: "SF-Pro-Text-Heavy";
+	letter-spacing: 3px;
+}
+.navbar-default .navbar-brand{
+	color: #777;
+	transition: 0.3s;
+
+}
+.navbar-default .navbar-brand:hover{
+	color: silver;
+	transition: 0.3s;
+}
+
+
+a.navbar-brand:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-top: 17px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid yellow; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+
+
+@font-face{
+	font-family:"SF-Pro-Text-Semibold";
+	src:url('SF-Pro-Text-Semibold.otf') format("opentype");
+}
+
+@font-face{
+	font-family: "SF-Pro-Text-Light";
+	src:url('SF-Pro-Text-Light.otf') format("opentype");
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	color: #777;
+}
+
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+	color: #ffffff;
+
+}
+
+
+ul.nav li a{
+	padding-top: 30px;
+	font-size: 16px;
+	font-family: "SF-Pro-Text-Light";
+	transition: 0.4s;
+
+}
+
+ul li a:hover,ul li a:focus{
+	transition: 0.4s;
+	font-family: "SF-Pro-Text-Semibold";
+	font-size: 1.3em;
+
+
+}
+
+
+nav[role="sub"] {
+	margin-top: 195px;
+	margin-left: 0px;
+	margin-right: 0px;
+	transform: rotate(-90deg);
+	float: left;
+	margin-left: -135px;
+	
+}
+
+nav[role="sub"] ul{
+	margin-top: 0px;
+}
+
+nav[role="sub"] ul li a{
+	content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0px auto; /* This will center the border. 
+    /*padding-right: 15px;*/
+
+    width: 90%; /* Change this to whatever width you want. */
+    padding-top: 11px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid red; /* This creates the border. Replace black with whatever color you want. */
+
+}
+
+nav[role="sub"] ul li{
+	margin-right: 30px;
+}
+
+nav[role="sub"] ul li a:hover,nav[role="sub"] ul li a:focus{
+
+	content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 90%; /* Change this to whatever width you want. */
+    padding-top: 11px; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid yellow; /* This creates the border. Replace black with whatever color you want. */
+}

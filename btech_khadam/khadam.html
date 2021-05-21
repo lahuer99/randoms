@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@font-face {
+		  font-family: bebas;
+		  src: url(bebas.ttf);
+		}
+
+		@font-face {
+		  font-family: robo;
+		  src: url(robo.ttf);
+		}
+
+		
+
+		#one{
+			position: absolute;
+			top: 185px;
+			left: 385px;
+		  	font-size: 200px;
+		  	text-shadow: 2px 2px #c4121b;
+		  	letter-spacing: -9px;
+
+		  	/*transform: font-size slow;*/
+		  	/*transition: transform 2s ease-in-out;*/
+
+		  	/*-webkit-animation:fontbulger 1s;*/
+   			/*-moz-animation:fontbulger 1s;*/
+   			/*-o-animation:fontbulger 1s;*/
+   			animation:fontbulger 1s;
+
+		  	/*animation-name: onet;*/
+		  	animation-duration: 2s;
+		}
+		#two{
+			/*display: none;*/
+			color: #ffff5e;
+			position: absolute;
+			top: 565px;
+			left: 580px;
+			font-size: 25px;
+			font-style: italic;
+			font-family: robo;
+
+			animation:subt 1s;
+			animation-duration: 1.5s;
+		}
+		@keyframes fontbulger{
+			25% {font-size: 250px;}
+		}
+
+		@keyframes subt{
+			25% {display: block;}
+		}
+		#b{
+			transform-origin: 0 0;
+			transform: skewY(40deg);
+		}
+		body{
+			background-color: black;
+			color: #E50914;
+			font-family: bebas;
+		}
+	</style>
+</head>
+<body>
+<div id="one">
+	<span id="b">B</span>
+	<span id="d">.</span>
+	<span id="t">T</span>
+	<span id="e">e</span>
+	<span id="c">c</span>
+	<span id="h">h</span>
+</div>
+<div id="two">
+	kha-dam!
+</div>
+
+</body>
+</html>

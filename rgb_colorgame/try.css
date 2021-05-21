@@ -1,0 +1,58 @@
+body{
+	background-color:#232323;
+}
+h1{
+	padding: 20px 0;
+	line-height: 1.1;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background-color: steelblue;
+	margin: 0;
+}
+#dispColor{
+	font-size: 200%;
+}
+#stripe{
+	background-color: #FFFFFF;
+	color: steelblue;
+	width:100%;
+	height: 30px;
+	text-align: center;
+}
+
+button{
+	border:none;
+	background: none;
+	text-transform: uppercase;
+	font-size: inherit;
+	/*letter-spacing: 1px;*/
+	height: 100%;
+	background-color:#FFFFFF;
+	color: steelblue;
+	outline:none;
+}
+.selected{
+	background-color: steelblue;
+	color:#FFFFFF;
+}
+
+#msg{
+	display: inline-block;
+	width:20%;
+}
+#container{
+	margin: 0px auto;
+	max-width: 600px;
+}
+
+.square{
+	margin:1.66%;
+	background-color: yellow;
+	width:30%;
+	padding-top:20px;
+	padding-bottom: 30%;
+	float:left;
+	border-radius: 20px;
+	transition:0.3s;
+}
